@@ -3,7 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Code to import Budget.js
-import Budget from './components/Budget';
+import {Budget, Currency} from './components/Budget';
 import Remaining from './components/Remaining';
 import ExpenseTotal from './components/ExpenseTotal';
 import ExpenseList from './components/ExpenseList';
@@ -17,12 +17,12 @@ const App = () => {
     return (
         <AppProvider>
             <div className='container'>
-                <h1 className='mt-3'>Company's Budget Allocation</h1>
+                <h1 className='mt-4'>Company's Budget Allocation</h1>
                     <div className='row mt-3'>
                        
                     <div className='col-sm'>
                         <Budget />
-                    </div>        
+                    </div>          
 
                     <div className='col-sm'>
                         <Remaining />
@@ -32,6 +32,10 @@ const App = () => {
                         <ExpenseTotal />
                     </div>      
                        
+                    <div className='col-sm'>
+                        <Currency />
+                    </div>  
+
                         <div className='mt-3'>
                         <ExpenseList />
                     </div>             
