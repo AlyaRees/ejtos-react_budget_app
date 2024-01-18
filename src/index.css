@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.green-background {
+    color: white;
+    background-color: #15f384; /* Green color code */
+    padding: 17px; 
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .green-background select {
+    background-color: #15f384; /* White background for the dropdown */
+    color: white; /* Green font color for the dropdown */
+    padding: 5px; /* Add padding for better visibility in the dropdown */
+    border: none
+  }
+  
+  .green-background select option {
+    background-color: #00ff00; /* Green background for the options */
+    color: #ffffff; /* White font color for the options */
+    /* Add any additional styling properties for the options as needed */
+    border: none
+  }
