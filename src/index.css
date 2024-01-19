@@ -26,9 +26,3 @@ code {
     border: none
   }
   
-  .green-background select option {
-    background-color: #00ff00; /* Green background for the options */
-    color: #ffffff; /* White font color for the options */
-    /* Add any additional styling properties for the options as needed */
-    border: none
-  }
